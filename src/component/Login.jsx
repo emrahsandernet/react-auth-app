@@ -29,8 +29,6 @@ export const Login = () => {
 
     }
     const onSubmit = () => {
-        console.log(email);
-        console.log(password);
         if (email.length > 0) {
             setIsValid(true)
             axios({
