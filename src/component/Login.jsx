@@ -45,6 +45,7 @@ export const Login = () => {
                 console.log(response.data.status)
                 if (response.data.status === 'success') {
                     setIsValid(false)
+                    alert('Başarıyla giriş yaptınız...!')
                     
                 }
                 
